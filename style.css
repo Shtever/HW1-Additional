@@ -129,8 +129,24 @@ a:visited {
     margin: 15px;
 }
 
-#eskimo:hover {
+.esk1:hover {
     filter:invert(100%);
+    transition-duration: 1s;
+}
+
+.esk2:hover {
+    filter: contrast(200%);
+    filter: brightness(400%);
+    transition-duration: 1s;
+}
+
+.esk3:hover {
+    filter: hue-rotate(270deg);
+    transition-duration: 1s;
+}
+
+.esk4:hover {
+    filter: blur(35px);
     transition-duration: 1s;
 }
 
